@@ -4,9 +4,9 @@
   tasks:
    - name: Afficher du texte.....
      debug:
-       msg: "Salaaaaaaaaaaaam aalikoum ....."
+       msg: "Salaaaaaaaaaaaam aalikoum warahmatolah ....."
        
    - name: Hello Message
      debug:
-       msg: "Hello World!"
+       msg: "Hello World!, ahlan bikoum"
       
