@@ -4,7 +4,7 @@
   tasks:
    - name: Afficher du texte.....
      debug:
-       msg: "Salaaaaaaaaaaaam....."
+       msg: "Salaaaaaaaaaaaam aalikoum ....."
        
    - name: Hello Message
      debug:
