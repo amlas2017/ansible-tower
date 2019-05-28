@@ -1,0 +1,12 @@
+---
+- hosts: server01
+  become: yes
+  tasks:
+   - name: Afficher du texte.....
+     debug:
+       msg: "Salaaaaaaaaaaaam....."
+       
+   - name: Hello Message
+     debug:
+       msg: "Hello World!"
+      
