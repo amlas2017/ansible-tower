@@ -1,0 +1,15 @@
+image: python:3.6-slim
+      
+      before_script:
+        - python -V # Print out python version for debugging
+        - pip install pyminifier
+      
+      stages:
+        - test
+              
+      job_test: 
+        stage: test 
+        script: 
+          - echo "Running tests" 
+                    
+      
